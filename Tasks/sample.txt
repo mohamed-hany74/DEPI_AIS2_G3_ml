@@ -1,0 +1,26 @@
+## task-4
+Create a class called TextFileReader that encapsulates functionality for reading a text file, counting lines, words, and characters, and displaying the contents of the file.
+
+Instructions:
+
+Define the Class:
+
+- Create a class named TextFileReader.
+
+The class should have the following attributes:
+
+- file_path: A string that holds the path to the text file.
+
+Implement Methods:
+
+- Constructor (__init__): Initialize the file_path attribute.
+- read_file(self): This method should open the file, read its contents, and store the contents in an attribute named content.
+- count_lines(self): This method should return the number of lines in the file.
+- count_words(self): This method should return the total number of words in the file.
+- count_characters(self): This method should return the total number of characters in the file.
+- display_content(self): This method should print the content of the file.
+
+Test Your Class:
+
+- Create an instance of the TextFileReader class with a valid text file path.
+- Call the methods to read the file, count lines, words, characters, and display the content.
